@@ -86,27 +86,12 @@ Markers
 Available Atlases and Coordinates
 =================================
 
-+------------------+-----------------------+-----------------------------+---------------+
-| Name             | Options               | Keys                        | Version Added |
-+==================+=======================+=============================+===============+
-| Schaefer         | `n_rois`              | `Schaefer100x7`             | 0.0.1         |
-|                  | `yeo_networks`        | `Schaefer200x7`             |               |
-|                  |                       | `Schaefer300x7`             |               |
-|                  |                       | `Schaefer400x7`             |               |
-|                  |                       | `Schaefer500x7`             |               |
-|                  |                       | `Schaefer600x7`             |               |
-|                  |                       | `Schaefer700x7`             |               |
-|                  |                       | `Schaefer800x7`             |               |
-|                  |                       | `Schaefer900x7`             |               |
-|                  |                       | `Schaefer1000x7`            |               |
-|                  |                       | `Schaefer100x17`            |               |
-|                  |                       | `Schaefer200x17`            |               |
-|                  |                       | `Schaefer300x17`            |               |
-|                  |                       | `Schaefer400x17`            |               |
-|                  |                       | `Schaefer500x17`            |               |
-|                  |                       | `Schaefer600x17`            |               |
-|                  |                       | `Schaefer700x17`            |               |
-|                  |                       | `Schaefer800x17`            |               |
-|                  |                       | `Schaefer900x17`            |               |
-|                  |                       | `Schaefer1000x17`           |               |
-+------------------+-----------------------+-----------------------------+---------------+
+========  =============  =================================================================  =============
+Name      Options        Keys                                                               Version added
+========  =============  =================================================================  =============
+schaefer  n_rois,        | Schaefer900x7, Schaefer1000x7, Schaefer100x17, Schaefer200x17,   0.0.1
+          yeo_networks   | Schaefer500x7, Schaefer600x7, Schaefer700x7, Schaefer800x7,
+                         | Schaefer300x17, Schaefer400x17, Schaefer500x17, Schaefer600x17,
+                         | Schaefer700x17, Schaefer800x17, Schaefer900x17, Schaefer1000x17
+========  =============  =================================================================  =============
+
